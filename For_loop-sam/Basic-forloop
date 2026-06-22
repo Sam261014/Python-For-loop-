@@ -1,5 +1,5 @@
 n=int(input("Enter a number: "))
-print(f"\nMultiplication table for {number}:")
+print(f"\nMultiplication table for {n}:")
 for i in range(1, 11):
-    result = number * i
-    print(f"{number} x {i} = {result}")
+    result = n * i
+    print(f"{n} x {i} = {result}")
